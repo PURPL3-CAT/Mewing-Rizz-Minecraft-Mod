@@ -1,0 +1,188 @@
+{
+  "mod_elements": [
+    {
+      "name": "TotemOfMewing",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totem_of_mewing",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mewingandrizz/item/TotemOfMewingItem.java",
+          "src/main/resources/assets/mewing_and_rizz/models/item/totem_of_mewing.json"
+        ]
+      }
+    },
+    {
+      "name": "TotemArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totem_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mewing_and_rizz/models/item/totem_armor_chestplate.json",
+          "src/main/resources/assets/mewing_and_rizz/models/item/totem_armor_helmet.json",
+          "src/main/resources/assets/mewing_and_rizz/models/item/totem_armor_leggings.json",
+          "src/main/resources/assets/mewing_and_rizz/models/item/totem_armor_boots.json",
+          "src/main/java/net/mcreator/mewingandrizz/item/TotemArmorItem.java"
+        ]
+      }
+    },
+    {
+      "name": "TotemArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totem_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mewing_and_rizz/recipes/totem_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TotemArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totem_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mewing_and_rizz/recipes/totem_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TotemArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totem_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mewing_and_rizz/recipes/totem_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TotemArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totem_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mewing_and_rizz/recipes/totem_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Gigachad",
+      "type": "villagerprofession",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gigachad",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "TotemTrade",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totem_trade",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Rizz",
+      "type": "potion",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rizz",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "EssenceOfRizz",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "essence_of_rizz",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mewingandrizz/item/EssenceOfRizzItem.java",
+          "src/main/resources/assets/mewing_and_rizz/models/item/essence_of_rizz.json"
+        ]
+      }
+    },
+    {
+      "name": "RizzPotionRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rizz_potion_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mewingandrizz/recipes/brewing/RizzPotionRecipeBrewingRecipe.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "ITEMS:minecraft:chest_armor": [
+      "~CUSTOM:TotemArmor.body"
+    ],
+    "ITEMS:minecraft:head_armor": [
+      "~CUSTOM:TotemArmor.helmet"
+    ],
+    "ITEMS:minecraft:foot_armor": [
+      "~CUSTOM:TotemArmor.boots"
+    ],
+    "ITEMS:minecraft:leg_armor": [
+      "~CUSTOM:TotemArmor.legs"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.mewing_and_rizz.totem_armor_helmet": "Mewing Helmet",
+      "item.mewing_and_rizz.totem_armor_boots": "Mewing Boots",
+      "item.minecraft.potion.effect.rizz": "Potion of Rizz",
+      "item.mewing_and_rizz.totem_armor_chestplate": "Mewing Chestplate",
+      "item.mewing_and_rizz.totem_armor_leggings": "Mewing Leggings",
+      "entity.minecraft.villager.mewing_and_rizz.gigachad": "Gigachad",
+      "item.minecraft.splash_potion.effect.rizz": "Splash Potion of Rizz",
+      "item.minecraft.tipped_arrow.effect.rizz": "Arrow of Rizz",
+      "item.mewing_and_rizz.totem_of_mewing": "Totem Of Mewing",
+      "item.minecraft.lingering_potion.effect.rizz": "Lingering Potion of Rizz",
+      "item.mewing_and_rizz.essence_of_rizz": "Essence Of Rizz"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "mewing_and_rizz",
+    "modName": "Mewing and Rizz",
+    "version": "1.0.0",
+    "author": "Kster, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.20.6",
+    "modElementsPackage": "net.mcreator.mewingandrizz"
+  },
+  "mcreatorVersion": 202400229712
+}
